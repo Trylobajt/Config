@@ -141,6 +141,9 @@
   <action id="NextProjectWindow">
     <keyboard-shortcut first-keystroke="ctrl alt right_parenthesis" />
   </action>
+  <action id="OpenInlineChatAction">
+    <keyboard-shortcut first-keystroke="shift ctrl g" />
+  </action>
   <action id="PreviousProjectWindow">
     <keyboard-shortcut first-keystroke="ctrl alt #10000fa" />
   </action>
@@ -167,6 +170,11 @@
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="w" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl w" />
     <keyboard-shortcut first-keystroke="ctrl semicolon" />
+  </action>
+  <action id="TailwindFormatterFileAction" />
+  <action id="TailwindFormatterProjectAction">
+    <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl g" />
+    <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="g" />
   </action>
   <action id="com.jetbrains.rider.interactive.csi.SendToCSharpInteractive">
     <keyboard-shortcut first-keystroke="ctrl dead_diaeresis" />

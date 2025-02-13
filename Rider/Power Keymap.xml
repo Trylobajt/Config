@@ -42,4 +42,9 @@
     <keyboard-shortcut first-keystroke="alt back_quote" />
   </action>
   <action id="RiderCoveringTestsPopupCoverAllTestsAction" />
+  <action id="TailwindFormatterFileAction" />
+  <action id="TailwindFormatterProjectAction">
+    <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl g" />
+    <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="g" />
+  </action>
 </keymap>
