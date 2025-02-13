@@ -1,0 +1,48 @@
+¨ -> #10000a8 -> dead_diaeresis
+´ -> #10000b4 -> dead_acute
+
+
+
+modify
+; with ů
+= with ´
+- with =
+/ with -
+` with ;
+[ with ú
+\ with ¨
+] with )
+' with §
+1 with +
+2 with ě
+3 with š
+4 with č
+5 with ř
+6 with ž
+7 with ý
+8 with á
+9 with í
+0 with é
+
+
+
+czech
+; with ů
+= with '
+- with =
+/ with -
+` with \
+[ with ú
+\ with ¨
+] with )
+' with §
+1 with +
+2 with ě
+3 with š
+4 with č
+5 with ř
+6 with ž
+7 with ý
+8 with á
+9 with í
+0 with é

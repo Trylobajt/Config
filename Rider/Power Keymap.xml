@@ -1,0 +1,45 @@
+<keymap version="1" name="Power Keymap" parent="Visual Studio">
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="ctrl y" />
+    <keyboard-shortcut first-keystroke="shift ctrl z" />
+  </action>
+  <action id="$Undo">
+    <keyboard-shortcut first-keystroke="ctrl z" />
+  </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="ctrl minus" />
+  </action>
+  <action id="CommentByBlockComment">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="u" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl u" />
+  </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="c" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl c" />
+  </action>
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="f3" />
+    <keyboard-shortcut first-keystroke="ctrl alt page_down" />
+    <keyboard-shortcut first-keystroke="shift alt slash" />
+  </action>
+  <action id="FindPrevious">
+    <keyboard-shortcut first-keystroke="shift f3" />
+    <keyboard-shortcut first-keystroke="ctrl alt page_up" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="shift ctrl minus" />
+  </action>
+  <action id="JumpToNextChange">
+    <keyboard-shortcut first-keystroke="shift ctrl alt back_space" />
+  </action>
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="shift ctrl down" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="shift ctrl up" />
+  </action>
+  <action id="ReSharperNavigateTo">
+    <keyboard-shortcut first-keystroke="alt back_quote" />
+  </action>
+  <action id="RiderCoveringTestsPopupCoverAllTestsAction" />
+</keymap>

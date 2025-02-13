@@ -1,0 +1,42 @@
+[user]
+	email = trylobajt@no-reply.com
+	name = Trylobajt
+[guitool "GC"]
+	cmd = git gc --aggressive --prune=now
+	noconsole = yes
+[guitool "rebase last # of comits"]
+	cmd = git rebase -i HEAD~$ARGS --committer-date-is-author-date
+	argprompt = yes
+[guitool "rebase from root"]
+	cmd = git rebase -i --root --committer-date-is-author-date
+[guitool "rebase continue"]
+	cmd = " git rebase --continue"
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[core]
+	editor = \"C:/Program Files/notepad++/notepad++.exe\" -multiInst -nosession
+	autocrlf = true
+[pull]
+	rebase = false
+[fetch]
+	prune = false
+[rebase]
+	autoStash = false
+	autosquash = false
+	updateRefs = false
+[diff]
+	guitool = meld
+[difftool "meld"]
+	path = C:/Program Files/Meld/Meld.exe
+	cmd = \"C:/Program Files/Meld/Meld.exe\" \"$LOCAL\" \"$REMOTE\"
+[difftool "difftastic"]                                           
+        cmd = c:/Users/FatalError/Downloads/difft-x86_64-pc-windows-msvc/difft.exe "$LOCAL" "$REMOTE"
+[merge]
+	guitool = meld
+[mergetool "meld"]
+	path = C:/Program Files/Meld/Meld.exe
+	cmd = \"C:/Program Files/Meld/Meld.exe\" \"$LOCAL\" \"$BASE\" \"$REMOTE\" --output \"$MERGED\"
+

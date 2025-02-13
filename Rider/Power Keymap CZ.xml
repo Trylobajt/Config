@@ -1,0 +1,185 @@
+<keymap version="1" name="Power Keymap CZ" parent="Visual Studio">
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="ctrl y" />
+    <keyboard-shortcut first-keystroke="shift ctrl z" />
+  </action>
+  <action id="$Undo">
+    <keyboard-shortcut first-keystroke="ctrl z" />
+  </action>
+  <action id="AIAssistant.Editor.CompleteCodeWithAI">
+    <keyboard-shortcut first-keystroke="alt dead_diaeresis" />
+  </action>
+  <action id="AIAssistant.Editor.GenerateCodeInplace">
+    <keyboard-shortcut first-keystroke="ctrl dead_diaeresis" />
+  </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="ctrl equals" />
+  </action>
+  <action id="CollapseAll">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+    <keyboard-shortcut first-keystroke="ctrl equals" />
+  </action>
+  <action id="CollapseExpandableComponent">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+    <keyboard-shortcut first-keystroke="ctrl equals" />
+  </action>
+  <action id="CollapseRegionRecursively">
+    <keyboard-shortcut first-keystroke="ctrl alt subtract" />
+    <keyboard-shortcut first-keystroke="ctrl alt equals" />
+  </action>
+  <action id="CommentByBlockComment">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="u" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl u" />
+  </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="c" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl c" />
+  </action>
+  <action id="EditorCodeBlockEndWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl alt right_parenthesis" />
+  </action>
+  <action id="EditorCodeBlockStart">
+    <keyboard-shortcut first-keystroke="shift alt #10000fa" />
+  </action>
+  <action id="EditorCodeBlockStartWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl alt #10000fa" />
+  </action>
+  <action id="EditorMatchBrace">
+    <keyboard-shortcut first-keystroke="ctrl right_parenthesis" />
+  </action>
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
+    <keyboard-shortcut first-keystroke="shift alt dead_acute" />
+  </action>
+  <action id="EditorUnSelectWord">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+    <keyboard-shortcut first-keystroke="shift ctrl w" />
+    <keyboard-shortcut first-keystroke="shift alt equals" />
+  </action>
+  <action id="EmmetNextEditPoint">
+    <keyboard-shortcut first-keystroke="shift alt right_parenthesis" />
+  </action>
+  <action id="EmmetPreviousEditPoint">
+    <keyboard-shortcut first-keystroke="shift alt #10000fa" />
+  </action>
+  <action id="ExpandAll">
+    <keyboard-shortcut first-keystroke="ctrl add" />
+    <keyboard-shortcut first-keystroke="ctrl dead_acute" />
+  </action>
+  <action id="ExpandExpandableComponent">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <keyboard-shortcut first-keystroke="ctrl add" />
+    <keyboard-shortcut first-keystroke="ctrl dead_acute" />
+  </action>
+  <action id="ExpandRegionRecursively">
+    <keyboard-shortcut first-keystroke="ctrl alt add" />
+    <keyboard-shortcut first-keystroke="ctrl alt dead_acute" />
+  </action>
+  <action id="FileChooser.GoToRoot">
+    <keyboard-shortcut first-keystroke="ctrl dead_diaeresis" />
+  </action>
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="alt dead_diaeresis" />
+  </action>
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="f3" />
+    <keyboard-shortcut first-keystroke="ctrl alt page_down" />
+    <keyboard-shortcut first-keystroke="shift alt minus" />
+  </action>
+  <action id="FindPrevious">
+    <keyboard-shortcut first-keystroke="shift f3" />
+    <keyboard-shortcut first-keystroke="ctrl alt page_up" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="shift ctrl equals" />
+  </action>
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="shift ctrl semicolon" />
+  </action>
+  <action id="GotoUrlAction">
+    <keyboard-shortcut first-keystroke="shift ctrl dead_diaeresis" />
+  </action>
+  <action id="Graph.ActualSize">
+    <keyboard-shortcut first-keystroke="ctrl divide" />
+    <keyboard-shortcut first-keystroke="ctrl minus" />
+  </action>
+  <action id="Graph.ZoomIn">
+    <keyboard-shortcut first-keystroke="add" />
+    <keyboard-shortcut first-keystroke="dead_acute" />
+  </action>
+  <action id="Graph.ZoomOut">
+    <keyboard-shortcut first-keystroke="subtract" />
+    <keyboard-shortcut first-keystroke="equals" />
+  </action>
+  <action id="HippieCompletion">
+    <keyboard-shortcut first-keystroke="alt minus" />
+  </action>
+  <action id="Images.Editor.ActualSize">
+    <keyboard-shortcut first-keystroke="ctrl divide" />
+    <keyboard-shortcut first-keystroke="ctrl minus" />
+  </action>
+  <action id="Images.Editor.ToggleGrid">
+    <keyboard-shortcut first-keystroke="ctrl #10000a7" />
+  </action>
+  <action id="JumpToNextChange">
+    <keyboard-shortcut first-keystroke="shift ctrl alt back_space" />
+  </action>
+  <action id="MaintenanceAction">
+    <keyboard-shortcut first-keystroke="shift ctrl alt minus" />
+  </action>
+  <action id="MaximizeToolWindow">
+    <keyboard-shortcut first-keystroke="shift ctrl #10000a7" />
+  </action>
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="shift ctrl down" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="shift ctrl up" />
+  </action>
+  <action id="NextProjectWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt right_parenthesis" />
+  </action>
+  <action id="PreviousProjectWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt #10000fa" />
+  </action>
+  <action id="ReSharperGotoContainingDeclaration">
+    <keyboard-shortcut first-keystroke="ctrl #10000fa" />
+  </action>
+  <action id="ReSharperNavigateTo">
+    <keyboard-shortcut first-keystroke="alt semicolon" />
+  </action>
+  <action id="ReSharperSelectContainingDeclaration">
+    <keyboard-shortcut first-keystroke="shift ctrl #10000fa" />
+  </action>
+  <action id="Rider.Plugins.FSharp.DebugInFsi">
+    <keyboard-shortcut first-keystroke="ctrl alt dead_diaeresis" />
+  </action>
+  <action id="Rider.Plugins.FSharp.SendToFsi">
+    <keyboard-shortcut first-keystroke="ctrl dead_diaeresis" />
+  </action>
+  <action id="RiderCoveringTestsPopupCoverAllTestsAction" />
+  <action id="SelectAllOccurrences">
+    <keyboard-shortcut first-keystroke="shift alt #100016f" />
+  </action>
+  <action id="ShowBookmarks">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="w" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl w" />
+    <keyboard-shortcut first-keystroke="ctrl semicolon" />
+  </action>
+  <action id="com.jetbrains.rider.interactive.csi.SendToCSharpInteractive">
+    <keyboard-shortcut first-keystroke="ctrl dead_diaeresis" />
+  </action>
+  <action id="copilot.cycleNextInlays">
+    <keyboard-shortcut first-keystroke="ctrl period" />
+    <keyboard-shortcut first-keystroke="alt right_parenthesis" />
+  </action>
+  <action id="copilot.cyclePrevInlays">
+    <keyboard-shortcut first-keystroke="ctrl comma" />
+    <keyboard-shortcut first-keystroke="alt #10000fa" />
+  </action>
+  <action id="copilot.requestCompletions">
+    <keyboard-shortcut first-keystroke="alt dead_diaeresis" />
+  </action>
+</keymap>
